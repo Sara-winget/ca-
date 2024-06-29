@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Books.css'; // Changed the CSS file name
+import './Books.css'; 
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
@@ -59,7 +59,7 @@ function Book() {
             <img src={book.imageLinks.smallThumbnail} alt={book.title} />
             <p>Pages: {book.pageCount}</p>
             <p>Rating: {book.averageRating}</p>
-            <p>Free</p>
+            <h4>Free</h4>
           </div>
         ))}
       </div>
