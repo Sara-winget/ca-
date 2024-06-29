@@ -1,0 +1,72 @@
+/* RegForm.css */
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+   
+}
+.formClass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    width:900px;
+    margin-left: 290px;
+    background-color: #373434;
+}
+
+.formDiv {
+    background: #ffffff;
+    padding: 40px;
+   height:700px;
+    border-radius: 8px;
+    width: 500px;
+}
+
+.registration h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.username, .email, .password, .repassword {
+    margin-bottom: 20px;
+}
+
+.user {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    color:black;
+    font-size: 16px;
+    border-radius: #373434;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+h4 {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+pre h1 {
+    font-size: 50px;
+    color: green;
+    text-align: center;
+    font-style:normal;
+    margin-bottom: 30px;
+}
+
